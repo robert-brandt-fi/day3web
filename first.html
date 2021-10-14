@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/javascript.js"></script>
+
     <title>Eka sivu</title>
 </head>
 <body>
@@ -14,8 +17,21 @@
     </div>
 
     <div class="text-block">
-        <h3>Asdfgh</h3>
-        <p>8-D</p>
+        <p>
+            <label for="firstName">Etunimi</label>
+            <input id="firstName" type="text">
+        </p>
+
+        <p>
+            <label for="surName">Sukunimi</label>
+            <input id="surName" type="text">
+        </p>
+    </div>
+
+    <div>
+        <button onclick="loginClicked()">
+            Login
+        </button>
     </div>
 </body>
 </html>
